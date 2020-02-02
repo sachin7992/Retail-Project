@@ -1,14 +1,24 @@
-# KambiProject
+# Retail Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
+This project calculates the price of the product based on user type. Different users are entitled to different rebate prices. The product prices also varies if it is an old product or a new product.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
+
+## Pre Requisites
+
+1. NodeJs
+2. Git
+3. IDE(Vs Code)
+
+## Setup
+
+1. Clone or download the project on your system.
+2. Run "npm i" on the source folder.
+3. Run "ng serve" on the source folder.
+4. Navigate your browser to `http://localhost:4200/`
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
