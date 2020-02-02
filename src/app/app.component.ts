@@ -38,13 +38,14 @@ export class AppComponent {
   }
   
   companyRebate(){
-    if(productType.newProduct){
+    var product = "old"
+    if(product == productType.newProduct){
       if(this.checkOrderDate){
         rebate = 15;
       }
       rebate = 5;
     }
-    if(productType.oldProduct){
+    if(product == productType.oldProduct){
       rebate = 5;
     }
     return rebate;
@@ -64,9 +65,7 @@ export class AppComponent {
   }
 
   productTypePrices(){
-    
-    var product = productType.oldProduct;
-
+    var product = "old";
     if(product == productType.newProduct){
       calculatedPrice = calculatedPrice + 25;
     }
